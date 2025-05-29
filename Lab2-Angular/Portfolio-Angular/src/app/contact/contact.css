@@ -1,0 +1,37 @@
+#contact{
+    margin-top: 50px;
+}
+.section-title{
+    text-align: center;
+}
+.contact h4{
+    font-size: 23px;
+    display: flex;
+}
+.info-box{
+    background-color: rgba(40, 52, 56, .968);
+    color: #fefefe;
+    height: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Sansation", sans-serif;
+    margin-top: 5px;
+}
+.info-box i{
+    width: 40px;
+    color: #149ddd;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    margin-right: 8px;
+}
+.info-box p{
+    margin-left: 40px;
+}
+@media(max-width:991px){
+    .info-box{
+        width: 100%;
+    }
+}

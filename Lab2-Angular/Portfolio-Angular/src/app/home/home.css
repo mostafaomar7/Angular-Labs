@@ -1,0 +1,110 @@
+.home-img{
+    border: 5px solid #ffbd39;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 500px;
+    width: 80%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.home-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+.home-img img{
+    width: 100%;
+    height: 600px;
+}
+.parent-content{
+    margin-top: 80px;
+    padding-left: 40px;
+}
+.parent-content h6{
+    color: #ffbd39;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.buttons .btn1{
+    background-color: #ffbd39;
+    color: #000;
+    width: 130px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+    padding: 10px 20px;
+    transition: all .5s ease-in-out;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+.buttons .btn1:hover{
+    background-color: #dda32e;
+}
+.btn2 i{
+    margin-right: 5px;
+    color: #fff;
+    background-color: rgb(17, 102, 158);
+    padding: 3px;
+    border-radius: 1px;
+}
+.buttons .btn2{
+    width: 180px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.buttons .btn2:hover {
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  box-shadow: 0 8px 15px rgba(44, 83, 100, 0.8), 0 0 10px rgba(44, 83, 100, 0.7);
+}
+
+.home-content{
+    font-family: "Sansation", sans-serif;
+    font-style: normal;
+}
+.home-content h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffbd39;
+    margin-bottom: 20px;
+    font-family: "Sansation", sans-serif;
+    font-style: normal;
+}
+.home-content h1 span{
+    color: #f1f1f1;
+}
+.home-content h3{
+    color: #f1f1f1;
+    margin-bottom: 30px;
+    font-size: 42px;
+}
+@media screen and (max-width: 768px) {
+    .home-img {
+        width: 100%;
+    }
+    .parent-content {
+        padding-left: 20px;
+    }
+    .home-content h1 {
+        font-size: 36px;
+    }
+    .home-content h3 {
+        font-size: 28px;
+    }
+    
+}
