@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { Main } from '../main/main';
+import { User } from '../models/user.model';
 
-interface User {
-  img?: string;
-  name?: string;
-  email?: string;
-  phone?: string;
-  verfied?: boolean;
-}
+// interface User {
+//   img?: string;
+//   name?: string;
+//   email?: string;
+//   phone?: string;
+//   verfied?: boolean;
+// }
 
 @Component({
   selector: 'app-userdata',

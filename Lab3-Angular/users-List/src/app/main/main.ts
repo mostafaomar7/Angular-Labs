@@ -1,19 +1,20 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-interface User {
-  img?: string;
-  name?: string;
-  email: string;
-  phone?: string;
-  verfied?: boolean;
-}
+import { User } from '../models/user.model';
+// interface User {
+//   img?: string;
+//   name?: string;
+//   email: string;
+//   phone?: string;
+//   verfied?: boolean;
+// }
 
 @Component({
   selector: 'app-main',
   templateUrl: './main.html',
   styleUrls: ['./main.css'],
-  imports: [CommonModule , FormsModule]     
+  imports: [CommonModule , FormsModule  ]     
 })
 export class Main {
 
